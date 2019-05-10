@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F19A64B62285FB4A006E2C4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A64B52285FB4A006E2C4F /* AppDelegate.swift */; };
-		F19A64B82285FB4A006E2C4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A64B72285FB4A006E2C4F /* ViewController.swift */; };
 		F19A64BB2285FB4A006E2C4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19A64B92285FB4A006E2C4F /* Main.storyboard */; };
 		F19A64BD2285FB4B006E2C4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19A64BC2285FB4B006E2C4F /* Assets.xcassets */; };
 		F19A64C02285FB4B006E2C4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19A64BE2285FB4B006E2C4F /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		F19A64B22285FB4A006E2C4F /* Screens-iOSPT1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Screens-iOSPT1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19A64B52285FB4A006E2C4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F19A64B72285FB4A006E2C4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F19A64BA2285FB4A006E2C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F19A64BC2285FB4B006E2C4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F19A64BF2285FB4B006E2C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,29 @@
 		F19A64B42285FB4A006E2C4F /* Screens-iOSPT1 */ = {
 			isa = PBXGroup;
 			children = (
-				F19A64B52285FB4A006E2C4F /* AppDelegate.swift */,
-				F19A64B72285FB4A006E2C4F /* ViewController.swift */,
-				F19A64B92285FB4A006E2C4F /* Main.storyboard */,
-				F19A64BC2285FB4B006E2C4F /* Assets.xcassets */,
-				F19A64BE2285FB4B006E2C4F /* LaunchScreen.storyboard */,
-				F19A64C12285FB4B006E2C4F /* Info.plist */,
+				F19A64C82285FC98006E2C4F /* Storyboards */,
+				F19A64C72285FC7C006E2C4F /* Resources */,
 			);
 			path = "Screens-iOSPT1";
+			sourceTree = "<group>";
+		};
+		F19A64C72285FC7C006E2C4F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F19A64B52285FB4A006E2C4F /* AppDelegate.swift */,
+				F19A64BC2285FB4B006E2C4F /* Assets.xcassets */,
+				F19A64C12285FB4B006E2C4F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F19A64C82285FC98006E2C4F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F19A64B92285FB4A006E2C4F /* Main.storyboard */,
+				F19A64BE2285FB4B006E2C4F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +148,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F19A64B82285FB4A006E2C4F /* ViewController.swift in Sources */,
 				F19A64B62285FB4A006E2C4F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +296,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5KBWP959TD;
-				INFOPLIST_FILE = "Screens-iOSPT1/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Screens-iOSPT1/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5KBWP959TD;
-				INFOPLIST_FILE = "Screens-iOSPT1/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Screens-iOSPT1/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
