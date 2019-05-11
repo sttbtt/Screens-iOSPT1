@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F10077C022874119001DC362 /* Simple.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10077BF22874119001DC362 /* Simple.storyboard */; };
+		F10077C322874138001DC362 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10077C122874138001DC362 /* History.storyboard */; };
 		F13A2A8F2287309F00C93B1D /* NumberedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A2A8E2287309F00C93B1D /* NumberedViewController.swift */; };
 		F13A2A912287369B00C93B1D /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A2A902287369B00C93B1D /* RedViewController.swift */; };
 		F19A64B62285FB4A006E2C4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A64B52285FB4A006E2C4F /* AppDelegate.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F10077BF22874119001DC362 /* Simple.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Simple.storyboard; sourceTree = "<group>"; };
+		F10077C222874138001DC362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Screens-iOSPT1/Storyboards/Base.lproj/History.storyboard"; sourceTree = "<group>"; };
 		F13A2A8E2287309F00C93B1D /* NumberedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberedViewController.swift; sourceTree = "<group>"; };
 		F13A2A902287369B00C93B1D /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 		F19A64B22285FB4A006E2C4F /* Screens-iOSPT1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Screens-iOSPT1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +53,8 @@
 		F19A64A92285FB4A006E2C4F = {
 			isa = PBXGroup;
 			children = (
+				F10077C122874138001DC362 /* History.storyboard */,
+				F10077BF22874119001DC362 /* Simple.storyboard */,
 				F19A64B42285FB4A006E2C4F /* Screens-iOSPT1 */,
 				F19A64B32285FB4A006E2C4F /* Products */,
 			);
@@ -151,6 +157,8 @@
 			files = (
 				F19A64C02285FB4B006E2C4F /* LaunchScreen.storyboard in Resources */,
 				F19A64BD2285FB4B006E2C4F /* Assets.xcassets in Resources */,
+				F10077C022874119001DC362 /* Simple.storyboard in Resources */,
+				F10077C322874138001DC362 /* History.storyboard in Resources */,
 				F19A64BB2285FB4A006E2C4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,6 +179,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		F10077C122874138001DC362 /* History.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F10077C222874138001DC362 /* Base */,
+			);
+			name = History.storyboard;
+			sourceTree = "<group>";
+		};
 		F19A64B92285FB4A006E2C4F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
