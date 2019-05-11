@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F13A2A8F2287309F00C93B1D /* NumberedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A2A8E2287309F00C93B1D /* NumberedViewController.swift */; };
+		F13A2A912287369B00C93B1D /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A2A902287369B00C93B1D /* RedViewController.swift */; };
 		F19A64B62285FB4A006E2C4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A64B52285FB4A006E2C4F /* AppDelegate.swift */; };
 		F19A64BB2285FB4A006E2C4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19A64B92285FB4A006E2C4F /* Main.storyboard */; };
 		F19A64BD2285FB4B006E2C4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19A64BC2285FB4B006E2C4F /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F13A2A8E2287309F00C93B1D /* NumberedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberedViewController.swift; sourceTree = "<group>"; };
+		F13A2A902287369B00C93B1D /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 		F19A64B22285FB4A006E2C4F /* Screens-iOSPT1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Screens-iOSPT1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19A64B52285FB4A006E2C4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F19A64BA2285FB4A006E2C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F13A2A92228736AA00C93B1D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F13A2A8E2287309F00C93B1D /* NumberedViewController.swift */,
+				F13A2A902287369B00C93B1D /* RedViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		F19A64A92285FB4A006E2C4F = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +65,7 @@
 		F19A64B42285FB4A006E2C4F /* Screens-iOSPT1 */ = {
 			isa = PBXGroup;
 			children = (
+				F13A2A92228736AA00C93B1D /* View Controllers */,
 				F19A64C82285FC98006E2C4F /* Storyboards */,
 				F19A64C72285FC7C006E2C4F /* Resources */,
 			);
@@ -148,6 +162,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13A2A8F2287309F00C93B1D /* NumberedViewController.swift in Sources */,
+				F13A2A912287369B00C93B1D /* RedViewController.swift in Sources */,
 				F19A64B62285FB4A006E2C4F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
